@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div id='services' className='page'>
+    <div id='services' className='page-outer'>
       <div className='page-inner'></div>
     </div>
   );

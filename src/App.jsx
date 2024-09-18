@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import Layout from './components/Layout';
-import Home from './pages/home';
+import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
@@ -12,7 +12,7 @@ import Error from './pages/Error';
 const App = () => {
 
   return (
-    <div id='app' className='app-container'>
+    <div id='App' className='app-container'>
         <Routes>
           <Route path='/' element={ <Layout/> }>
             <Route index element={ <Home/> }/>

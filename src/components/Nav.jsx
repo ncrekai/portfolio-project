@@ -5,8 +5,8 @@ const Nav = () => {
     const pagesArr = ['home', 'about', 'projects', 'services', 'contact']
     
     return (
-        <div id='nav'>
-            <div className='nav-container'>
+        <div id='Nav' className='nav-container'>
+            <div className='nav-inner'>
                 <div className='logo-container'>
                     <div className='logo'>
                         <img src={ logo }/>
