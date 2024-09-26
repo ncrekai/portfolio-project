@@ -11,7 +11,9 @@ import photoshopIcon from '../assets/service/photoshop.svg'
 
 
 const Services = () => {
+
   const iconArr = [reactIcon, htmlIcon, wordpressIcon, javascriptIcon, reduxIcon, sqlIcon, oracleIcon, javaIcon, photoshopIcon]
+  
   return (
     <div id='services' className='services-container page-outer'>
       <div className='page-inner'>
