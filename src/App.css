@@ -165,22 +165,72 @@
   /* aspect-ratio: 1 / 1; */
 }
 .project-image {
-  flex: 1 1 auto;
-  
+  /* flex: 1 1 auto; */
+  aspect-ratio: 4 / 3;
   display: flex;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    flex: 1 1 48%;
+    min-width: 135px;
 }
 
 .project-image.wide {
-  aspect-ratio: 3 / 2;
+  /* aspect-ratio: 3 / 2; */
+  width: 135px;
+  flex: 0 1 48%;
 }
 .project-image.tall {
-  aspect-ratio: 2 / 3;
+  /* aspect-ratio: 2 / 3; */
+  max-height: 135px;
+  width: 100%;
+  flex: 0 1 32%;
 }
 .project-image img {
   max-height: 135px;
   max-width: 135px;
   flex: 1 1 auto;
 }
+
+.lightbox-container {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 200;
+}
+
+.lightbox-display {
+  display: flex;
+  padding: 15px;
+  background: #fff;
+  height: fit-content;
+  margin: auto;
+}
+
+.lightbox-display img {
+  max-width: 650px;
+  height: fit-content;
+  max-height: 600px;
+}
+
+/* .lightbox-close {
+  background: #fff;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 40px;
+} */
+
+
 /* Text Format */
 
 ul, li, h1, h2, h3, h4, a, p {
