@@ -1,3 +1,5 @@
+// Error.jsx || Natalie Rekai || #301484514 || 26-Sep-24
+
 const Error = () => {
   return (
     <div id='error' className='page-outer'>

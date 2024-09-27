@@ -1,3 +1,5 @@
+// Home.jsx || Natalie Rekai || #301484514 || 26-Sep-24
+
 const Home = () => {
   return (
     <div id='home' className='home-container page-outer'>
@@ -8,7 +10,9 @@ const Home = () => {
         </div>
         <div className='right-container'>
           <div className='text-box'>
-          <p className='dosis-body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut commodo velit. In eu ex at lorem dictum lacinia eu a sem. Maecenas ultricies tortor quis dolor ultrices, ac maximus odio ultricies. Quisque et lorem in elit interdum varius sit amet nec mi. Duis eleifend ultrices ligula, non fermentum arcu maximus sed. Morbi vitae hendrerit nisi, sit amet ultrices libero. Pellentesque sit amet ex lorem.</p>
+            <h1 className='small'>Idolize nothing,</h1>
+            <h1>touch everything.</h1>
+            <a href='/about'><div className='button'>More about my mission...</div></a>
           </div>
         </div>
       </div>

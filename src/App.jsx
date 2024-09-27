@@ -1,3 +1,5 @@
+// App.jsx || Natalie Rekai || #301484514 || 26-Sep-24
+
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -11,6 +13,8 @@ import Error from './pages/Error';
 
 const App = () => {
 
+  // Define Router index and paths for navbar
+  
   return (
     <div id='App' className='app-container'>
         <Routes>

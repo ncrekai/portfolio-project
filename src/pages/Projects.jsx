@@ -1,3 +1,4 @@
+// Projects.jsx || Natalie Rekai || #301484514 || 26-Sep-24
 
 import { useState } from 'react';
 import shelf from '../assets/shelf.jpg';
@@ -9,9 +10,9 @@ import bookend from '../assets/bookend.jpg';
 
 const Projects = () => {
 
+  // Hooks + functions to manage Lightbox display
   const [lightboxDisplay, setLightboxDisplay] = useState(false)
   const [displayImage, setDisplayImage] = useState(null)
-
   const showImage = (img) => {
     setDisplayImage(img)
     setLightboxDisplay(true)
@@ -20,7 +21,6 @@ const Projects = () => {
     setDisplayImage(null)
     setLightboxDisplay(false)
   }
-
 
   const projImages = [shelf, figure, flowers, candlestick, bowl, bookend];
 
@@ -47,7 +47,9 @@ const Projects = () => {
     </div>
   );
 };
-export default Projects;
+
+
+// Pop-up component to display images
 
 const Lightbox = (props) => {
   const { image, hideImage } = props;
@@ -59,3 +61,5 @@ const Lightbox = (props) => {
     </div>
   )
 }
+
+export default Projects;

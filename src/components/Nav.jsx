@@ -1,3 +1,5 @@
+// Nav.jsx || Natalie Rekai || #301484514 || 26-Sep-24
+
 import { Link } from 'react-router-dom';
 import logo from '../assets/MF-icon2-dark_500.png'
 

@@ -1,3 +1,5 @@
+// Services.jsx || Natalie Rekai || #301484514 || 26-Sep-24
+
 /* eslint-disable react/no-unescaped-entities */
 import reactIcon from '../assets/service/react.svg'
 import htmlIcon from '../assets/service/html5.svg'
