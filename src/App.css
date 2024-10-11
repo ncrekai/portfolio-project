@@ -169,6 +169,7 @@
 .project-image {
   aspect-ratio: 4 / 3;
   display: flex;
+  cursor: pointer;
   background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
