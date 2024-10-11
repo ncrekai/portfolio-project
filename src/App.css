@@ -152,6 +152,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .service-icon:hover {
@@ -200,6 +201,7 @@
   width: 100%;
   color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -224,6 +226,7 @@ input {
   justify-content: center;
   background-color: rgba(0,0,0,0.4);
   z-index: 200;
+  cursor: pointer;
 }
 
 .lightbox-display {
